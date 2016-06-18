@@ -15,6 +15,7 @@
     <link href="css/ie10-viewport-bug-workaround.css" rel="stylesheet">
     <link href="swiper/css/swiper.min.css" rel="stylesheet" />
     <!-- Custom styles for this template -->
+    <link href="css/animate.css" rel="stylesheet" />
     <link href="css/seth.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -25,8 +26,9 @@
 
 </head>
 <body>
+    <div class="overlay"></div>
     <!-- Swiper -->
-    <div class="swiper-container">
+    <div class="swiper-container wow zoomIn" data-wow-duration="3s" data-wow-delay="0.5s">
         <div class="swiper-wrapper">
             <div class="swiper-slide">
                 <img src="images/paint-01.jpg" />
@@ -44,13 +46,13 @@
             <div class="cover-container">
                 <div class="masthead clearfix">
                     <div class="inner">
-                        <h3 class="masthead-brand">
-                            <img src="images/logo.png" style="max-width:120px;" />
+                        <h3 class="masthead-brand wow fadeIn" data-wow-duration="1s" data-wow-delay="2.5s">
+                            <img src="images/logo.png" style="max-width:95px;" />
                         </h3>
 
                     </div>
                 </div>
-                <div class="inner cover">
+                <div class="inner cover wow zoomIn" data-wow-duration="2s">
                     <p class="lead">Be ready, we are launching soon.</p>
                     <h1 class="cover-heading">Seth Art Collection</h1>
                     <!--<p class="lead">
